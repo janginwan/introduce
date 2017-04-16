@@ -1,0 +1,47 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+body{font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#nav{ height:70px; vertical-align: bottom; text-align:center; line-height:2px; margin:0 auto; padding-top:20px;}
+#nav ul li {list-style: none; font-size:15px; float:left; }
+#nav ul li:first-child {position:absolute; font-size:200%; }
+#nav ul li:nth-child(2){position:relative;padding-left:500px;}
+#nav ul li:nth-child(3){position:relative;padding-left:50px; }
+#nav ul li:nth-child(4){position:relative;padding-left:50px; }
+#nav ul li:nth-child(5){position:relative;padding-left:50px; }
+#nav ul li .navlink{ text-decoration: none; color:black;}
+.container{ width: 960px; 
+}
+
+#header { height:600px;
+}
+#header img{ position:absolute;width:100%;height:600px;display:inline-block;}
+#header div{position:absolute;text-align: center;margin-left:auto; width:100%;height:30px;}
+#header #hdiv1{margin-top:100px; display:inline-block; font-size:60px;}
+#header #hdiv2{margin-top:300px; display:inline-block; color:white; font-weight:bold;font-style: italic; font-size:18px;}
+#section article{ padding-top:20px;float:left; }
+#section .article{ width: 310px;height:310px; margin-left: 10px ;}
+#section { margin:0 auto;}
+#section article p{font-size:15px;text-align:center;font-weight:bold;}
+#footer {background-color: black;width:100%;height:100px;vertical-align: bottom;display:inline-block;}
+#footer #footerp{font-size:15px;color:white;text-align:center;vertical-align: middle;padding-top:25px;}
+
+/*.section {}*/
+/*.footer{}*/
+/*#topMenu { // topMenu의 ID를 가진 태그의 스타일 지정 height: 30px; // topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐)
+width: 850px; // topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐) } 
+#topMenu ul li { // topMenu의 ID를 가진 태그 안에 <ul> 태그 안에 <li> 태그의 스타일을 지정 
+list-style: none; // <li> 태그는 위의 이미지처럼 목록을 나타내는 점을 없앤다 
+color: white; // 글씨 색을 흰색으로 설정 background-color: #2d2d2d; // 배경색을 진한 회색(RGB(2D,2D,2D)으로 설정 
+float: left; // <li>태그들이 왼쪽에 흐르게 설정(그러면 아래있는 내용은 오른쪽으로 옴) 
+line-height: 30px; // 글씨가 가운데로 오도록 설정하기 위해 한줄의 높이를 30px로 설정 
+vertical-align: middle; // 세로 정렬을 가운데로 설정(위의 line-height와 같이 설정 필요함) 
+text-align: center; // 글씨 정렬을 가운데로 설정 }
+#topMenu .menuLink { // topMenu 아이디를 가진 태그 안에 있는 menuLink 클래스 태그들의 스타일 설정 
+text-decoration:none; // 링크(<a> 태그)가 가지는 기본 꾸밈 효과(밑줄 등)을 없앰 
+color: white; // 폰트색을 흰색으로 설정 display: block; // 링크를 글씨가 있는 부분 뿐만아니라 전체 영역을 클릭해도 링크가 걸리게 설정 
+width: 150px; // 메뉴링크의 넓이 설정 font-size: 12px; // 폰트 사이즈 12px로 설정 font-weight: bold; // 폰트를 굵게 
+font-family: "Trebuchet MS", Dotum, Arial; // 기본 폰트 적용, 시스템 폰트를 종류별로 순서대로 } 
+#topMenu .menuLink:hover { //topMenu 아이디를 가진 태그 안에 menuLink클래스를 가진 태그에 마우스가 over되면 스타일 설정 
+color: red; // 글씨 색을 붉은색으로 설정 background-color: #4d4d4d; // 배경색을 조금 더 밝은 회색으로 설정 }
+출처: http://unikys.tistory.com/333 [All-round programmer]*/
